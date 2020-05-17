@@ -18,7 +18,6 @@ script.
   var requiredFields = requestSetting(['nick','mail','link'],'#{ theme.valine.requiredFields }')
   let friends = '#{theme.valine.friends}'.split(',')
   let master = '#{theme.valine.master}'.split(',')
-  let requiredFields = '#{theme.valine.requiredFields}'.split(',')
 
   window.valine = new Valine({
     el:'#vcomment',
