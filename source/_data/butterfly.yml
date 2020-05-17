@@ -685,7 +685,7 @@ gitalk:
   perPage: 10 # Pagination size, with maximum 100.
   distractionFreeMode: false # Facebook-like distraction free mode.
   pagerDirection: last # Comment sorting direction, available values are last and first.
-  createIssueManually: false # Gitalk will create a corresponding github issue for your every single page automatically
+  createIssueManually: true # Gitalk will create a corresponding github issue for your every single page automatically
   count: true # top_img顯示評論數
 
 # valine comment system. https://valine.js.org
