@@ -103,7 +103,7 @@ cover:
 
 douban:
   meta: false
-  movies_img: 
+  movies_img:
   books_img:
   games_img:
 
@@ -179,7 +179,7 @@ disqus:
   shortname:
   count: false # top_img顯示評論數
 
-# Disqus.js 版評論系統，應對大陸長城的折中方案，兼容原版：https://github.com/SukkaW/DisqusJS 
+# Disqus.js 版評論系統，應對大陸長城的折中方案，兼容原版：https://github.com/SukkaW/DisqusJS
 # API 申請地址：https://disqus.com/api/applications/
 # 與 disqus 共用樣式
 disqusjs:
@@ -221,13 +221,13 @@ ICP:
 
 ####   Analysis    ####
 # ---------------
-baidu_analytics: 
+baidu_analytics:
 
 # Google Analytics
-google_analytics: 
+google_analytics:
 
 # Tencent_analytics ID
-tencent_analytics: 
+tencent_analytics:
 
 # Ads
 # ---------------
@@ -235,7 +235,7 @@ tencent_analytics:
 google_adsense:
   enable: false
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client: 
+  client:
   enable_page_level_ads: true
 # 廣告插入位置
 # 適用於開啓手動廣告的配置
@@ -255,11 +255,11 @@ bing_site_verification:
 
 # Baidu Webmaster tools verification setting
 # See: https://ziyuan.baidu.com/site/
-baidu_site_verification: 
+baidu_site_verification:
 
 # 360 Webmaster tools verification setting
 # see http://zhanzhang.so.com/
-qihu_site_verification: 
+qihu_site_verification:
 
 # 打賞按鈕
 reward:
@@ -324,7 +324,7 @@ tag_ui: # 留空或index
 # 圖片格式 background: url(http://xxxxxx.com/xxx.jpg)
 # 顔色 background: '#49B202'
 # 留空 顯示白色
-background: 
+background:
 
 # footer是否顯示圖片背景(與top_img一致)
 footer_bg: true
@@ -715,6 +715,7 @@ valine:
     nick: 昵称/QQ号(必填)
     mail: 邮箱(必填)
     link: 网址(https://)
+  tagMeta: '博主,小伙伴,访客' # 标签要显示的文字,默认'博主,小伙伴,访客'
 
 utterances:
   enable: false

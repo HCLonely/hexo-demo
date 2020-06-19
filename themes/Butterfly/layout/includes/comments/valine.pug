@@ -18,7 +18,7 @@ script.
   var requiredFields = requestSetting(['nick','mail','link'],'#{ theme.valine.requiredFields }')
   let friends = '#{theme.valine.friends}'.split(',')
   let master = '#{theme.valine.master}'.split(',')
-  let tagMeta = '#{theme.valine.tagMeta}'.split(',')
+  let tagMeta = '#{theme.valine.tagMeta || "博主,小伙伴,访客"}'.split(',')
 
   window.valine = new Valine({
     el:'#vcomment',
